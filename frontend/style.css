@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    background-color: black;
+}
+
+h1, h3 {
+    color: white;
+    font-family: Helvetica Neue, 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 550;
+}
+
+h3 {
+    font-weight: 325;
+}
+
+.form-outline {
+    display: inline-block;
+    width: 42.5%;
+    margin-top: 1%;
+}
+
+#search {
+    display: grid;
+    place-content: center;
+    margin-top: 10%;
+}
+
+#spotify-logo {
+    width: 125px;
+    height: 125px;
+    transform: translate(-120%, 100%);
+}
+
